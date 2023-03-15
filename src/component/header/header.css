@@ -1,0 +1,25 @@
+.btn-Connect{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+/* identical to box height */
+color: #FFFFFF;
+background: #5C3F93;
+border-radius: 5px;
+}
+.btn-Connect:hover{
+    color: #5C3F93;
+    background: #FFAE02;
+}
+.nav-link{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #5C3F93;
+}
+.nav-link:hover{
+    color: #FFAE02;
+    text-transform: capitalize;
+}
