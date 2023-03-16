@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.734b6894.css",
-    "main.js": "/static/js/main.8bc47374.js",
+    "main.js": "/static/js/main.66397159.js",
     "static/js/787.3038d08b.chunk.js": "/static/js/787.3038d08b.chunk.js",
     "static/media/wave-01.svg": "/static/media/wave-01.528ba3a9ead2fffbda79.svg",
     "static/media/EstrellaTera_logo_light.svg": "/static/media/EstrellaTera_logo_light.8e76abb9b3799e4159a3f1c090b2a952.svg",
@@ -10,11 +10,11 @@
     "index.html": "/index.html",
     "static/media/Polygon.svg": "/static/media/Polygon.751f83957d9246bc77adb4b83e8d7c78.svg",
     "main.734b6894.css.map": "/static/css/main.734b6894.css.map",
-    "main.8bc47374.js.map": "/static/js/main.8bc47374.js.map",
+    "main.66397159.js.map": "/static/js/main.66397159.js.map",
     "787.3038d08b.chunk.js.map": "/static/js/787.3038d08b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.734b6894.css",
-    "static/js/main.8bc47374.js"
+    "static/js/main.66397159.js"
   ]
 }

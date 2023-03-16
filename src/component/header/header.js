@@ -23,20 +23,20 @@ function Header() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
               <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#">
+                <a className="nav-link " aria-current="page" href="#whatIsEta">
                   What is ETA
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#commission">
                   Comission
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link ">ETA Portfolio</a>
+                <a className="nav-link " href="#etaPortfolio">ETA Portfolio</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link ">Telegram</a>
+                <a className="nav-link " >Telegram</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link ">Discord</a>

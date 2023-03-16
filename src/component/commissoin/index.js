@@ -6,9 +6,12 @@ import TotalCommission from './totalCommission'
 function Index() {
   return (
     <>
+    <div className='' id="commission">
     <Commission/>
+      
     <TotalCommission/>
     <CommissionTable/>
+    </div>
     </>
   )
 }

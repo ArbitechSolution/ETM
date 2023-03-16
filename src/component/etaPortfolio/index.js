@@ -4,7 +4,7 @@ import EtaTable from "./etaTable";
 
 function Index() {
   return (
-    <div>
+    <div id="etaPortfolio">
       <EtaPortfolio />
       <EtaTable/>
     </div>

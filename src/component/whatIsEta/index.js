@@ -37,7 +37,7 @@ const data = [
 ];
 function WhatIsEta() {
   return (
-    <div className=" background_Pic mt-5">
+    <div className=" background_Pic mt-5" id="whatIsEta">
       <div className="container">
         <div className="row">
           <div className="col-md-12 ">
