@@ -76,6 +76,10 @@ tr:hover {
 }
 
 @media(max-width:500px){
+  .text-ETA{
+
+    font-size: 15px;
+  }
   th{
     font-size: 15px;
   }
