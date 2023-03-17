@@ -1,7 +1,14 @@
 import React from "react";
+import { useDispatch , useSelector} from "react-redux";
+import { connectionAction } from "../../Redux/connection/actions";
 import Logo from "../../assets/images/EstrellaTera_logo-01.svg";
 import "./header.css";
 function Header() {
+const dispatch =useDispatch();
+let acc = useSelector((state) => state.connect?.connection)
+const connectWallet = () => {
+  dispatch(connectionAction());
+};
   return (
     <div className="container">
       <nav className="navbar navbar-expand-lg ">
@@ -46,7 +53,16 @@ function Header() {
               </li>
             </ul>
             <div className="d-flex">
-              <button className="btn btn-Connect p-2">Connect Wallet</button>
+              <button className="btn btn-Connect p-2" onClick={connectWallet}>
+              {acc === "No Wallet"
+                          ? "Connect Wallet"
+                          : acc === "Connect Wallet"
+                          ? "Connect Wallet"
+                          : acc === "Wrong Network"
+                          ? acc
+                          : acc.substring(0, 3) +
+                            "..." +
+                            acc.substring(acc.length - 3)}</button>
             </div>
           </div>
         </div>
