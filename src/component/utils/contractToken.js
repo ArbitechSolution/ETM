@@ -1,5 +1,5 @@
-export const contractToken = "0x106420571B5A57bE49a79a0bAccE7854bE4376fe";
-export const contractTokenAbi = [
+export const contractTokenAdd = "0x106420571B5A57bE49a79a0bAccE7854bE4376fe";
+export const contractTokenAddAbi = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
   {
     anonymous: false,

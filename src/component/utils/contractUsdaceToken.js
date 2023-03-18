@@ -1,5 +1,5 @@
-export const usdaceToken = "0xc7e2fE9814714612499c5C7455995a98Df2B1E24";
-export const usdaceTokenAbi = [
+export const usdaceTokenAdd = "0xc7e2fE9814714612499c5C7455995a98Df2B1E24";
+export const usdaceTokenAddAbi = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
   {
     anonymous: false,

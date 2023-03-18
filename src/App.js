@@ -4,6 +4,7 @@ import MainPage from './page/index';
 function App() {
   return (
    <>
+   
    <MainPage/>
    </>
   );

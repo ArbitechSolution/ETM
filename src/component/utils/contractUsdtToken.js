@@ -1,4 +1,4 @@
-export const usdtToken = "0x8cFC55D638339BD3B6bCa7fe49004BBf0b9B1235";
+export const usdtTokenAdd = "0x8cFC55D638339BD3B6bCa7fe49004BBf0b9B1235";
 export const usdtTokenAbi = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
   {
